@@ -98,7 +98,7 @@ export const AddUser: React.FC = () => {
     fetchAPI(values);
     resetForm();
     setNumber(`+380`)
-    alert(`Новий користувач додан`)
+    alert(`Новий користувач доданий`)
   }else{
       alert(`номер телефона та група користувачів обов'язкові поля `)
     }
